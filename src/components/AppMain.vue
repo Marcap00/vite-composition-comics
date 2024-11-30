@@ -1,19 +1,9 @@
-<script>
-export default {
-    name: "AppMain",
-    components: {},
-    props: {},
-    data() {
-        return {
-
-        };
-    },
-    methods: {},
-    computed: {},
-};
+<script setup>
+import MainHero from './MainHero.vue'
 </script>
 
 <template>
+    <MainHero />
 </template>
 
-<style scoped></style>
+<style lang="scss" scoped></style>
